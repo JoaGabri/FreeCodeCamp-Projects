@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width", initial-scale=1.0" />
+    <link rel="stylesheet" href="/form/styles.css">
+    </head>
+    <body>
+        <main>
+        <div class="container">
+            <header class="header"></header>
+            <h1 id=title class="text-center">Survey Test FreeCodeCamp</h1>
+            <p id=description class="description text-center">This is a survey test
+                </p>
+            </header>
+            <form id="survey-form">
+            <div class="form-group">
+          <label id="name-label" for="name">name</label>
+          <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Your name here"
+          required
+          />
+          </div>
+    <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Your email here"
+          required
+          />
+          </div>
+    <div class="form-group">
+          <label id="number-label" for="age">Age</label>
+          <input
+          type="number"
+          name="age"
+          id="number"
+          class="form-control"
+          placeholder="age"
+          min="18"
+          max="99"
+          />
+    <div class="form-group">
+        <p>where did you find us?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select</option>
+        <option value="linkedin">linkedin</option>
+        <option value="facebook">facebook</option>
+        <option value="instagram">instagram</option>
+        <option value="friend">a friend told me</option>
+        </select>
+        </div>
+
+        <div class="form-group">
+            <p>Would you recommend FreeCodeCamp?</p>
+            <label>
+                <input
+                name="recommend"
+                value="of-course"
+                type="radio"
+                class="input-radio"
+                />of course!</label>
+
+            <label>
+                <input
+                name="recommend"
+                value="certainly"
+                type="radio"
+                class="input-radio"
+                />certainly</label>
+
+                <label>
+                <input
+                name="recommend"
+                value="of-course"
+                type="radio"
+                class="input-radio"
+                />of course!</label>
+
+                <label>
+                <input
+                name="recommend"
+                value="yes"
+                type="radio"
+                class="input-radio"
+                />yes</label>
+
+        <div class="form-group">
+            <p>What do you want to improve using FreeCodeCamp?</p>
+            <label>
+                <input
+                name="improve"
+                value="python"
+                type="checkbox"
+                class="input-checkbox"
+            />Python</label>
+
+            <label>
+                <input
+                name="improve"
+                value="javascript"
+                type="checkbox"
+                class="input-checkbox"
+            />javascript</label>
+
+            <label>
+                <input
+                name="improve"
+                value="html-css"
+                type="checkbox"
+                class="input-checkbox"
+            />html and css</label>
+
+        <div class="form-group">
+            <p>tell a little about yourself</p>
+            <textarea
+            id="comments"
+            class="input-textarea"
+            name="comments"
+            placeholder="Write here"
+            ></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+
+            </div>
+        </form>
+        </div>
+        </main>
+        <footer class="footer">
+            <p> this project was made by me, João Gabriel. - 2022 - 
+                <a href="https://www.freecodecamp.org">freecodecamp</a>
+            </p>
+        </footer>
+        </body>
+        </html>
+        
+        
+
+
+
+
+
+        
+
+
+
+            
