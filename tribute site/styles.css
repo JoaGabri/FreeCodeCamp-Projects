@@ -1,0 +1,102 @@
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 10px;
+}
+
+body{ 
+  font-family: "Verdana", sans-serif;
+  text-align:center;
+  font-size:1.6rem;
+  line-height:1.5;
+  margin:0;
+  background: rgb(193,36,51);
+background: radial-gradient(circle, rgba(193,36,51,1) 48%, rgba(57,7,14,1) 87%);
+color: rgb(245, 176, 176);
+
+}
+
+#image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 993px;
+    height: 604px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+  }
+}
+
+a{
+    color: #008cff;
+    text-decoration: none;
+ }
+
+a:visited {
+    color: #74638f;
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+  }
+}
+
+#img-div {
+    padding: 10px;
+    margin: 0;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+ 
+ li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+b{
+  filter:blur(0);
+} 
+
+.blur{
+  filter:blur(1.5rem);
+}
+
+.blur:hover{
+  filter:blur(0);
+  transition: 0.5s;
+}
+
